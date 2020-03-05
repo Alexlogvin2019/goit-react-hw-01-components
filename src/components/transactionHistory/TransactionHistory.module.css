@@ -1,0 +1,26 @@
+.transactionHistory {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+    margin: 20px auto;
+    width: 300px;
+}
+.transactionHistory th {
+    height: 30px;
+    background-color: royalblue;
+    border: 1px solid grey;
+}
+.transactionHistory tr {
+    border: 1px solid grey;
+    height: 30px;
+    text-align: center;
+
+}
+.transactionHistory tr:nth-child(odd) {
+    background-color: royalblue;
+}
+.transactionHistory td {
+    border: 1px solid grey;
+    height: 30px;
+    text-align: center;
+
+}
